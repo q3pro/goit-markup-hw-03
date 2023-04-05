@@ -60,10 +60,12 @@ body {
 .header {
 }
 
-.header-container { 
+.header-container {
+  
 }
 
 .navigation {
+  
 }
 
 .header-logo {
@@ -74,6 +76,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
+  margin-right: 76px;
+ 
 }
 
 .span-logo {
