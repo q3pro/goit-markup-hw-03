@@ -61,12 +61,9 @@ body {
 }
 
 .header {
-  padding-top: 24px;
 }
 
-.header-container {
-  display: flex;
-  margin-bottom: 96px;
+.header-container { 
 }
 
 .header-logo {
