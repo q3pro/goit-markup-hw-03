@@ -184,11 +184,19 @@ body {
 }
 /**===============PORTFOLIO==========*/
 
-.test {
+.button-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+
+.test {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  row-gap: 48px;
+  column-gap:24px;
 }
 
 .header-btn {
@@ -201,10 +209,9 @@ body {
   cursor: pointer;
   color: var(--portfolio-btn-color);
   background-color: var(--porfolio-btn-bgc);
-  width: 116px;
-  height: 48px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .header-btn:is(:hover, :focus) {
