@@ -50,8 +50,7 @@ body {
 
 .container {
   width: 1158px;
-  padding-left: 0 px;
-  padding-right: 0 px;
+  padding: 0 15px;
   margin: auto;
   /* outline: 2px solid red; */
 }
@@ -61,14 +60,12 @@ body {
   box-sizing: border-box;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding: 24px 156px;
   margin-bottom: 96px;
 }
 
 .header-container {
   display: flex;
-  padding-top: 24px;
 }
 
 .head-list {
@@ -124,8 +121,20 @@ body {
 }
 
 /**=================HomePage=================*/
+
+.sencond-section {
+  margin-bottom: 120px;
+}
+
+.section-third {
+  margin-bottom: 120px;
+}
+
 .home-page {
   background-color: var(--bgcolor-home-page);
+  text-align: center;
+  padding: 188px 0;
+  margin-bottom: 120px;
 }
 
 .hp-top-text {
@@ -133,7 +142,10 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hp-button {
@@ -145,6 +157,9 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hp-button:is(:hover, :focus) {
@@ -157,11 +172,15 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--about-top-text-color);
+  padding-bottom: 8px;
+  text-align: center;
+  padding-top: 32px;
 }
 
 .about-low-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .team-text {
@@ -171,14 +190,34 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: var(--h2-text-color);
+  padding-bottom: 72px;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 .team {
   background-color: #f4f4fd;
+  margin-bottom: 0;
+  padding: 120px;
 }
 
 .team-list {
   background-color: #ffffff;
+}
+
+.team-info {
+  display: flex;
+  gap: 24px;
+}
+
+.team-box {
+  box-sizing: border-box;
+  height: 120px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 /**===============PORTFOLIO==========*/
 
@@ -266,17 +305,17 @@ body {
 }
 
 .footer-text {
-  color: #F4F4FD;
+  color: #f4f4fd;
   width: 264px;
-height: 72px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
+  height: 72px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 
-letter-spacing: 0.02em;
-padding-top: 17px;
+  letter-spacing: 0.02em;
+  padding-top: 17px;
 }
 
 .footer-container {
