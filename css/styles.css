@@ -134,7 +134,7 @@ body {
   background-color: var(--bgcolor-home-page);
   text-align: center;
   padding: 188px 0;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
 
 .hp-top-text {
