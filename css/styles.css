@@ -173,13 +173,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--about-top-text-color);
   padding-bottom: 8px;
-  /* text-align: center; */
-  padding-top: 32px;
 }
 
 .about-low-text {
   font-weight: 400;
-font-size: 16px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   min-width: 264px;
@@ -222,6 +220,25 @@ font-size: 16px;
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+
+.team-top-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--about-top-text-color);
+  padding-bottom: 8px;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.team-low-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
 /**===============PORTFOLIO==========*/
 
 .button-list {
@@ -229,6 +246,7 @@ font-size: 16px;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  margin-top: 96px;
 }
 
 .gallary {
