@@ -76,6 +76,7 @@ body {
 .navigation {
   display: flex;
   margin-right: auto;
+  align-items: center;
 }
 
 .header-logo {
