@@ -67,13 +67,11 @@ body {
 
 .header-container {
   display: flex;
-
 }
 
 .head-list {
   display: flex;
   gap: 40px;
-  
 }
 
 .navigation {
