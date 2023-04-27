@@ -16,6 +16,8 @@
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 p,
@@ -135,15 +137,15 @@ body {
 
 .team {
   background-color: #f4f4fd;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
   padding: 120px 0;
 }
 
-.img {
+/* .img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
 .hp-top-text {
   font-size: 56px;
@@ -329,7 +331,7 @@ body {
 .footer-text {
   color: #f4f4fd;
   width: 264px;
-  height: 72px;
+  /* height: 72px; */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
