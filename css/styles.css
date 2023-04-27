@@ -140,15 +140,8 @@ body {
 
 .team {
   background-color: #f4f4fd;
-  /* margin-bottom: 0; */
   padding: 120px 0;
 }
-
-/* .img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
 
 .hp-top-text {
   font-size: 56px;
@@ -229,11 +222,7 @@ body {
 
 .team-box {
   box-sizing: border-box;
-  /* padding-bottom: 32px; */
   padding: 32px 16px;
-  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
-  /* border-radius: 0px 0px 4px 4px; */
 }
 
 .team-top-text {
@@ -244,7 +233,6 @@ body {
   color: var(--about-top-text-color);
   margin-bottom: 8px;
   text-align: center;
-  /* padding-top: 32px; */
 }
 
 .team-low-text {
@@ -331,6 +319,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .span-logo-footer {
@@ -339,7 +329,7 @@ body {
 
 .footer {
   background-color: #2e2f42;
-  padding: 120px 0;
+  padding: 100px 0;
 }
 
 .footer-text {
