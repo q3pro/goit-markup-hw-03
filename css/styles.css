@@ -290,6 +290,7 @@ body {
 .header-btn:is(:hover, :focus) {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .portfolio-text {
